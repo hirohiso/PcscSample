@@ -1,6 +1,6 @@
-package cardAccess;
+package usim.domain;
 
-import cardAccess.apdu.BinaryData;
+import pcsc.datasource.cardAccess.apdu.BinaryData;
 
 import java.util.Arrays;
 import java.util.Optional;

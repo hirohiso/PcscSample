@@ -1,4 +1,4 @@
-package cardAccess.apdu;
+package pcsc.datasource.cardAccess.apdu;
 
 public final class BinaryData {
     public static final BinaryData EMPTY = new BinaryData(new byte[]{});

@@ -1,7 +1,7 @@
-import cardAccess.ApplicationTemplate;
-import cardAccess.Bcd;
-import cardAccess.CardTransfer;
-import cardAccess.UsimCommandApduProvider;
+import usim.domain.ApplicationTemplate;
+import pcsc.datasource.cardAccess.Bcd;
+import pcsc.datasource.cardAccess.CardTransfer;
+import usim.domain.UsimCommandApduProvider;
 
 import javax.smartcardio.*;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
-package cardAccess;
+package pcsc.datasource.cardAccess;
 
-import cardAccess.apdu.BinaryData;
+import pcsc.datasource.cardAccess.apdu.BinaryData;
 import lombok.NonNull;
 
 import javax.smartcardio.*;

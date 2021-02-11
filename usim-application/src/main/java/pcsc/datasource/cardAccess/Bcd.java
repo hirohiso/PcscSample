@@ -1,4 +1,4 @@
-package cardAccess;
+package pcsc.datasource.cardAccess;
 
 public class Bcd {
     private final byte[] value;

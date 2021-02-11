@@ -1,6 +1,6 @@
-package cardAccess.apdu;
+package pcsc.datasource.cardAccess.apdu;
 
-import cardAccess.CardTransfer;
+import pcsc.datasource.cardAccess.CardTransfer;
 
 public class IcCard {
     private CardTransfer cardTransfer;

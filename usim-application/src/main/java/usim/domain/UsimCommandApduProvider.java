@@ -1,4 +1,4 @@
-package cardAccess;
+package usim.domain;
 
 import javax.smartcardio.CommandAPDU;
 
