@@ -1,5 +1,7 @@
 package pcsc.datasource.cardAccess.apdu;
 
+import java.lang.reflect.Array;
+
 public final class BinaryData {
     public static final BinaryData EMPTY = new BinaryData(new byte[]{});
     private final byte[] value;
@@ -38,7 +40,10 @@ public final class BinaryData {
         return this.value.length;
     }
     public BinaryData append(BinaryData other) {
-        return null;//
+        byte[] result = new byte[this.value.length + other.value.length];
+        System.arraycopy(this.value,0,result,0,this.value.length);
+        System.arraycopy(other.value,0,result,this.value.length,other.value.length);
+        return new BinaryData(result);//
     }
 
     public BinaryData subBinaryData(int begin, int end) {
